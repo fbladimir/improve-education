@@ -4,7 +4,7 @@
 
 Submitted as a project for Advanced Software Engineer class. Using this application, students are able to create an open learning environment that will make education more accessible and improve the quality of education. 
 
-## Application Glance 
+## Application at a Glance 
 
 
 <img width="800" alt="main" src="https://user-images.githubusercontent.com/67939160/213975960-61cc5d8d-f4c5-40ca-bfbf-2ccd7e7996cf.png">
