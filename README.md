@@ -1,13 +1,15 @@
 # Improving Education Application
 
+### Currently Under Development
+
 Submitted as a project for Advanced Software Engineer class. Using this application, students are able to create an open learning environment that will make education more accessible and improve the quality of education. 
 
-##Quick Application Glance 
-
-
+## Application Glance 
 
 
 <img width="800" alt="main" src="https://user-images.githubusercontent.com/67939160/213975960-61cc5d8d-f4c5-40ca-bfbf-2ccd7e7996cf.png">
+
+<img width="800" alt="main" src="https://user-images.githubusercontent.com/67939160/213976108-0e8d7cbe-6020-45aa-b0f3-cda952a27aba.png">
 
 ## How to launch Application
 
@@ -35,3 +37,8 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+## Technologies Used: 
+
+React - Framework 
+JavaScript, HTML, CSS, 
