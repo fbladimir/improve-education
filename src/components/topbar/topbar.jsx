@@ -16,8 +16,8 @@ const Topbar = () => {
   return (
     <nav> 
     
-    <a href="#header" onClick={()=> setActiveNav('/student')} className={activeNav === '#student' ? 'active' : ''}><AiOutlineHome /></a>
-      <a href="#intro" onClick={()=> setActiveNav('#intro')} className={activeNav === '#intro' ? 'active' : ''}><VscAccount /></a>
+    <a href="/" onClick={()=> setActiveNav('/')} className={activeNav === '/' ? 'active' : ''}><AiOutlineHome /></a>
+      <a href="/student" onClick={()=> setActiveNav('/student')} className={activeNav === '/student' ? 'active' : ''}><VscAccount /></a>
       <a href='#'> <TbSchool /> </a> 
       <a href='#'> <MdOutlineRateReview /> </a>
 
