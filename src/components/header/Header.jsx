@@ -1,6 +1,7 @@
 import React from 'react'
 import './header.css'
 import CTA from './CTA'
+import Intro from '../intro/Intro'
 
 const Header = () => {
   return (
@@ -17,7 +18,9 @@ const Header = () => {
         
         </a>
 
-        { /* <HeaderSocials /> */ }   
+        <Intro /> 
+
+       
 
       </div>
     </header>
