@@ -8,7 +8,7 @@ import { MdOutlineRateReview } from 'react-icons/md'
 
 
 
-const topbar = () => {
+const Topbar = () => {
 
   const [activeNav, setActiveNav] = useState('#header');
 
@@ -16,7 +16,7 @@ const topbar = () => {
   return (
     <nav> 
     
-    <a href="#header" onClick={()=> setActiveNav('#header')} className={activeNav === '#header' ? 'active' : ''}><AiOutlineHome /></a>
+    <a href="#header" onClick={()=> setActiveNav('/student')} className={activeNav === '#student' ? 'active' : ''}><AiOutlineHome /></a>
       <a href="#intro" onClick={()=> setActiveNav('#intro')} className={activeNav === '#intro' ? 'active' : ''}><VscAccount /></a>
       <a href='#'> <TbSchool /> </a> 
       <a href='#'> <MdOutlineRateReview /> </a>
@@ -25,4 +25,4 @@ const topbar = () => {
   )
 }
 
-export default topbar
+export default Topbar
