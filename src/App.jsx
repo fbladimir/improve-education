@@ -5,7 +5,9 @@ import Topbar from './components/topbar/topbar'
 //import CTA from './components/header/CTA'
 import Teacher from './components/teacher/Teacher'
 import Student from './components/student/Student'
+import Universities from './components/universities/Universities'
 import { Routes, Route } from 'react-router-dom'
+
 
 
 const App = () => {
@@ -15,6 +17,8 @@ const App = () => {
         <Route path='/' element={< Header /> } />  
         <Route path='/student' element={< Student /> } /> 
         <Route path='/teacher' element={< Teacher /> } /> 
+        <Route path='/universities' element={< Universities /> } /> 
+        
 
       </Routes>
 
