@@ -1,9 +1,9 @@
 import React from 'react'
 import './universities.css'
-import Searchbar from '../searchbar/Searchbar'
+import Searchbar from './searchbar/Searchbar'
 import Data from './Data.json'
-import Navbar2 from '../navbar/Navbar2'
-import Carousel from '../carousel/MyCarousel'
+import Navbar2 from './navbar/Navbar2'
+import Carousel from './carousel/MyCarousel'
 
 const Universities = () => {
   return (
