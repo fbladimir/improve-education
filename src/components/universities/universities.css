@@ -1,0 +1,70 @@
+universities {
+    height: 100%;
+    padding-top: 4rem;
+    overflow: hidden;
+  }
+
+  .searchbar {
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    font-family: "Nunito", sans-serif;
+    padding-left: 18rem;
+  }
+
+  .carousel{
+    height: 80vh;
+  }
+  
+  .universities__container {
+    padding-top: 5%;
+    text-align: center;
+    height: 100%;
+    position: relative;
+  }
+  
+  .universities__socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    position: absolute;
+    left: 5rem;
+    bottom: 1rem;
+  }
+  
+  .universities__socials::after {
+    content: '';
+    width: 1px;
+    height: 2rem;
+    background: var(--color-primary);
+  }
+  
+  .scroll__down {
+    position: absolute;
+    right: 5rem;
+    bottom: 5rem;
+    transform: rotate(90deg);
+    font-weight: 300;
+    font-size: 0.9rem;
+  }
+  
+  @media screen and (max-width: 1024px){
+    universities {
+      padding-top: 3rem;
+    }
+  
+    universities {
+      margin-top: 6rem;
+    }
+  }
+  
+  @media screen and (max-width: 600px){
+  
+    .universities__socials,
+    .scroll__down {
+      display: none;
+    }
+  }
