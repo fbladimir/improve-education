@@ -6,10 +6,10 @@ const Widget = ({ type }) => {
   const { currentUser } = useContext(AuthContext);
   const title =
     type === "user"
-      ? "Reccomended for " + currentUser.displayName
+      ? "University Posts made by: " + currentUser.displayName
       : type === "popular"
-      ? "Popular on DesignMediaX"
-      : "Editor's choice";
+      ? " Popular Universities "
+      : "Favorite Universities" ;
 
   const img =
     type === "user"
