@@ -11,6 +11,9 @@ Submitted as a project for Advanced Software Engineer class. Using this applicat
 
 <img width="800" alt="main" src="https://user-images.githubusercontent.com/67939160/213976108-0e8d7cbe-6020-45aa-b0f3-cda952a27aba.png">
 
+<img width="800" alt="universityPage" src="https://user-images.githubusercontent.com/67939160/224901373-86d892f2-530b-4fbb-8a44-053f6b9ec3e6.png">
+
+
 ## How to launch Application
 
 In the project directory, you can run:
