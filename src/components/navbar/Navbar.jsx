@@ -1,5 +1,6 @@
 import "./navbar.css";
 import React, { useContext } from "react";
+import DefaultProfile from '../../assets/DefaultProfile.jpg'; 
 import { AuthContext } from "./../../context/AuthContext";
 
 const Navbar = () => {
@@ -26,7 +27,7 @@ const Navbar = () => {
             src={
               currentUser.photoURL
                 ? currentUser.photoURL
-                : "/assets/DefaultProfile.jpg"
+                : "../../assets/DefaultProfile.jpg"
             }
             alt=""
           />

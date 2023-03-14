@@ -6,6 +6,7 @@ import {
 } from "react-router-dom";
 import { AuthContext } from "./context/AuthContext";
 import Home from './components/home/Home';
+import LoginHome from './components/LoginHome/LoginHome'; 
 import Topbar from './components/topbar/topbar';
 //import Intro from './components/intro/Intro'
 //import CTA from './components/header/CTA'
@@ -37,6 +38,11 @@ function App() {
     },
 
     {
+      path: "/LoginHome",
+      element: <LoginHome />,
+    },
+
+    {
       path: "/profile",
       element: <Profile />,
     },
@@ -55,7 +61,7 @@ function App() {
       element: (
         <AuthRoute>
 
-          <Home />
+          <LoginHome />
 
           <Topbar /> 
 

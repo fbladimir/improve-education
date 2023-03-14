@@ -34,7 +34,7 @@ const Topbar = () => {
     navigate("/login");
   };
 
-  const [activeNav, setActiveNav] = useState('#header');
+  const [activeNav, setActiveNav] = useState('#home');
 
 
   return (
