@@ -3,12 +3,16 @@ import './home.css'
 import CTA from './CTA'
 import Intro from '../intro/Intro'
 
-const Header = () => {
+const Home = () => {
+  
+
   return (
     
     <header id="header">
       <div className="container header__container">
-        <h5>Welcome to </h5>
+      
+        <h3> Welcome to, </h3> 
+        
         <h1> Improving Education </h1> 
         <h4 className="text-light"> Who is visting today? </h4>
          
@@ -28,4 +32,4 @@ const Header = () => {
   )
 }
 
-export default Header
+export default Home
