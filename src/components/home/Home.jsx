@@ -1,5 +1,5 @@
 import React from 'react'
-import './header.css'
+import './home.css'
 import CTA from './CTA'
 import Intro from '../intro/Intro'
 

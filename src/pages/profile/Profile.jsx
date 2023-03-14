@@ -1,9 +1,10 @@
 import React from "react";
-import Update from "./../../components/update/Update";
+import Update from "../../components/update/Update";
 import Sidebar from "../../components/sidebar/Sidebar";
 import Navbar from "../../components/navbar/Navbar";
 import Rightbar from "../../components/rightbar/Rightbar";
-import "./home.css";
+import Topbar from "../../components/topbar/topbar"; 
+import "./profile.css";
 
 const Home = () => {
   return (
@@ -14,6 +15,8 @@ const Home = () => {
           <Sidebar />
           <Update />
           <Rightbar />
+          <Topbar /> 
+
         </div>
       </>
     </div>

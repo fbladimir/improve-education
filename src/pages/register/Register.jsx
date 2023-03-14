@@ -130,8 +130,8 @@ const Register = () => {
         <div className="line"></div>
         <div className="media-options">
           <Link to="#" className="facebook" style={{ textDecoration: "none" }}>
-            <FacebookRounded className="facebookIcon" />
-            <span>Login with Facebook</span>
+          
+            <span>Login with Apple</span>
           </Link>
         </div>
         <div className="media-options">
