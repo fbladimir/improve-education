@@ -1,5 +1,5 @@
-import "./navbar.scss";
-import { useContext } from "react";
+import "./navbar.css";
+import React, { useContext } from "react";
 import { AuthContext } from "./../../context/AuthContext";
 
 const Navbar = () => {

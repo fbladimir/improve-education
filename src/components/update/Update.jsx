@@ -10,7 +10,7 @@ import { v4 as uuid } from "uuid";
 import { storage } from "../../firebase";
 import { ref, uploadBytesResumable, getDownloadURL } from "firebase/storage";
 import { useNavigate } from "react-router-dom";
-import "./update.scss";
+import "./update.css";
 
 const Update = () => {
   const [data, setData] = useState({

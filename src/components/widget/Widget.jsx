@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { AuthContext } from "../../context/AuthContext";
-import "./widget.scss";
+import "./widget.css";
 
 const Widget = ({ type }) => {
   const { currentUser } = useContext(AuthContext);

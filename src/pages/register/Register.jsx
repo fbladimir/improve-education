@@ -1,7 +1,7 @@
 import React, { useContext, useState } from "react";
 import FormInput from "../../components/formInput/FormInput";
 import { Link, useNavigate } from "react-router-dom";
-import "./register.scss";
+import "./register.css";
 import { FacebookRounded } from "@mui/icons-material";
 import { auth, provider } from "../../firebase";
 import {

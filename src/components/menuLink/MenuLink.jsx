@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import "./menuLink.scss";
+import "./menuLink.css";
 import { AuthContext } from "./../../context/AuthContext";
 
 const MenuLink = ({ icon, text }) => {

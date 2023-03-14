@@ -11,10 +11,10 @@ import {
     Settings,
     ShoppingBasketOutlined,
   } from "@mui/icons-material";
-  import { useContext } from "react";
+  import React, { useContext } from "react";
   import { AuthContext } from "../../context/AuthContext";
   import MenuLink from "../menuLink/MenuLink";
-  import "./sidebar.scss";
+  import "./sidebar.css";
   import { useNavigate } from "react-router-dom";
   
   const Sidebar = () => {

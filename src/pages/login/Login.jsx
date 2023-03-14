@@ -1,5 +1,5 @@
 import React, { useContext, useState } from "react";
-import "./login.scss";
+import "./login.css";
 import { Link, useNavigate } from "react-router-dom";
 import {
   FacebookRounded,

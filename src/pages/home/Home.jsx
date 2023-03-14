@@ -3,7 +3,7 @@ import Update from "./../../components/update/Update";
 import Sidebar from "../../components/sidebar/Sidebar";
 import Navbar from "../../components/navbar/Navbar";
 import Rightbar from "../../components/rightbar/Rightbar";
-import "./home.scss";
+import "./home.css";
 
 const Home = () => {
   return (

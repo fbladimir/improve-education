@@ -1,7 +1,7 @@
 import { ArrowDropDown } from "@mui/icons-material";
 import React from "react";
 import Widget from "./../widget/Widget";
-import "./rightbar.scss";
+import "./rightbar.css";
 
 const Rightbar = () => {
   return (
