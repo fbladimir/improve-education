@@ -42,7 +42,7 @@ const Topbar = () => {
     
     <a href="/" onClick={()=> setActiveNav('/')} className={activeNav === '/' ? 'active' : ''}><AiOutlineHome /></a>
       <a href="/profile" onClick={()=> setActiveNav('/profile')} className={activeNav === '/profile' ? 'active' : ''}><VscAccount /></a>
-      <a href="/universities " onClick={()=> setActiveNav('/universities')} className={activeNav === '/universities' ? 'active' : ''}><GiSchoolBag /> </a> 
+      <a href="/universitiespage " onClick={()=> setActiveNav('/universitiespage')} className={activeNav === '/universitiespage' ? 'active' : ''}><GiSchoolBag /> </a> 
       <span onClick={handleLogout}> <MenuLink icon={<ExitToAppOutlined />}/> </span> 
 
     </nav> 
