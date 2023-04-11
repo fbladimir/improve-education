@@ -2,7 +2,7 @@ import React from 'react'
 import './universities.css'
 import Searchbar from './searchbar/Searchbar'
 import Data from './Data.json'
-import Navbar2 from './navbar/Navbar2'
+import Topbar from '../topbar/topbar'
 import Carousel from './carousel/MyCarousel'
 
 const Universities = () => {
@@ -15,7 +15,7 @@ const Universities = () => {
       <Searchbar placeholder="Enter an Institution..." data={Data}  />
     </div>
 
-    <Navbar2/>
+    <Topbar/>
 
     <div className="carousel">
       <Carousel/>
