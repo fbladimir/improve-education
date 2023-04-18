@@ -1,5 +1,6 @@
 import React from 'react'
 import './myCarousel.css'
+import { Link } from 'react-router-dom';
 
 export default function Product(props) {
   return (
@@ -13,7 +14,9 @@ export default function Product(props) {
               <p className="location"> {props.location} </p>
               <p> {props.description}</p>
               <p>
-                <button>Add to favorites</button>
+                <Link to={props.link}>
+                  <button className="my-button">READ MORE</button>
+                </Link>
               </p>
     </div>
   );
