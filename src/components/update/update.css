@@ -19,15 +19,21 @@
         margin-top: 70px;
         border-top: 1px solid lightgray;
         padding-top: 10px;
+        background-color: transparent;
       }
 
-        .form {
-          flex: 1;
-        }
+          .formImg {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 15px;
+            margin-top: -20px;
+          }
+
           .formItem {
             display: flex;
             flex-direction: column;
             margin-bottom: 15px;
+
           }
 
             .formInput {
@@ -41,8 +47,10 @@
 
             .profilePic {
               margin-top: 20px;
+              margin-left: 55px;
               display: flex;
               align-items: center;
+              justify-content: center;
             }
 
               .profileImg {
@@ -51,11 +59,10 @@
                 border-radius: 50%;
                 object-fit: cover;
                 margin-bottom: 10px;
-
+                justify-content: center;
               }
 
               .change{
-                margin-left: 10px;
                 font-weight: 500;
                 font-size: 13px;
                 color: teal;

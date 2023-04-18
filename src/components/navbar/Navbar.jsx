@@ -1,7 +1,8 @@
 import "./navbar.css";
 import React, { useContext } from "react";
-import DefaultProfile from '../../assets/DefaultProfile.jpg'; 
+import DefaultProfile from '../../assets/DefaultProfile.jpg';
 import { AuthContext } from "./../../context/AuthContext";
+import "./searchbar2/searchbar2.css";
 
 const Navbar = () => {
   const { currentUser } = useContext(AuthContext);
@@ -10,14 +11,14 @@ const Navbar = () => {
     <div className="navbar">
       <div className="navbarWrapper">
         <div className="navbarLeft">
-          <span className="logo">Account DashBoard</span>
+          <span className="logo">Account Dashboard</span>
         </div>
         <div className="navbarCenter">
           <div className="search">
             <input
+              className="searchInput"
               type="text"
               placeholder="search for something..."
-              className="searchInput"
             />
           </div>
         </div>

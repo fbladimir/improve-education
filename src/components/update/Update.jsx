@@ -83,64 +83,64 @@ const Update = () => {
         <span>Email Address: {currentUser.email}</span>
 
         <div className="updateContainer">
-          <form onSubmit={handleUpdate}>
-            <div className="formItem">
-              <span>Profile Photo</span>
-              <div className="profilePic">
-                <img
-                  src={
-                    img
-                      ? URL.createObjectURL(img)
-                      : "/assets/DefaultProfile.jpg"
-                  }
-                  alt=""
-                  className="profileImg"
-                />
-                <label htmlFor="file">
-                  <span className="change">Change</span>
-                </label>
+            <form onSubmit={handleUpdate}>
+              <div className="formImg">
+                <span>Profile Photo</span>
+                <div className="profilePic">
+                  <img
+                    src={
+                      img
+                        ? URL.createObjectURL(img)
+                        : "/assets/DefaultProfile.jpg"
+                    }
+                    alt=""
+                    className="profileImg"
+                  />
+                  <label htmlFor="file">
+                    <span className="change">Change</span>
+                  </label>
+                  <input
+                    type="file"
+                    id="file"
+                    style={{ display: "none" }}
+                    onChange={(e) => setImg(e.target.files[0])}
+                  />
+                </div>
+              </div>
+              <div className="formItem">
+                <label>Username</label>
                 <input
-                  type="file"
-                  id="file"
-                  style={{ display: "none" }}
-                  onChange={(e) => setImg(e.target.files[0])}
+                  className="formInput"
+                  type="text"
+                  name="username"
+                  placeholder={currentUser.displayName}
+                  onChange={handleChange}
                 />
               </div>
-            </div>
-            <div className="formItem">
-              <label>Username</label>
-              <input
-                className="formInput"
-                type="text"
-                name="username"
-                placeholder={currentUser.displayName}
-                onChange={handleChange}
-              />
-            </div>
-            <div className="formItem">
-              <label>Email</label>
-              <input
-                className="formInput"
-                type="email"
-                name="newEmail"
-                placeholder={currentUser.email}
-                onChange={handleChange}
-              />
-            </div>
-            <div className="formItem">
-              <label>Password</label>
-              <input
-                className="formInput"
-                name="oldPassword"
-                type="password"
-                onChange={handleChange}
-              />
-            </div>
-            <button type="submit" className="updateButton">
-              Update Profile
-            </button>
-          </form>
-        </div>
+              <div className="formItem">
+                <label>Email</label>
+                <input
+                  className="formInput"
+                  type="email"
+                  name="newEmail"
+                  placeholder={currentUser.email}
+                  onChange={handleChange}
+                />
+              </div>
+              <div className="formItem">
+                <label>Password</label>
+                <input
+                  className="formInput"
+                  name="oldPassword"
+                  type="password"
+                  onChange={handleChange}
+                />
+              </div>
+              <button type="submit" className="updateButton">
+                Update Profile
+              </button>
+            </form>
+          </div>
       </div>
     </div>
   );
