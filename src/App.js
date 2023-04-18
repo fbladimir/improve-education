@@ -18,6 +18,18 @@ import Login from "./pages/login/Login";
 import TeacherLogin from "./pages/login/teacherLogin";
 import Register from "./pages/register/Register";
 import TeacherReg from "./pages/register/teacherReg"; 
+import FIU from "./components/universitiespage/FIU";
+import UM from "./components/universitiespage/UM";
+import KU from "./components/universitiespage/KU";
+import FAU from "./components/universitiespage/FAU";
+import NSU from "./components/universitiespage/NSU";
+import BC from "./components/universitiespage/BC";
+import FMU from "./components/universitiespage/FMU";
+import FNU from "./components/universitiespage/FNU";
+import LU from "./components/universitiespage/LU";
+import EU from "./components/universitiespage/EU";
+import Universitiespage from "./components/universitiespage/Universitiespage";
+
 
 
 
@@ -67,6 +79,50 @@ function App() {
     {
       path: "/teacherReg",
       element: <TeacherReg />,
+    },
+    {
+      path: "/universitiespage",
+      element: <Universitiespage />,
+    },
+    {
+      path: "/FIU",
+      element: <FIU />,
+    },
+    {
+      path: "/UM",
+      element: <UM />,
+    },
+    {
+      path: "/KU",
+      element: <KU />,
+    },
+    {
+      path: "/FAU",
+      element: <FAU />,
+    },
+    {
+      path: "/NSU",
+      element: <NSU />,
+    },
+    {
+      path: "/BC",
+      element: <BC />,
+    },
+    {
+      path: "/FNU",
+      element: <FNU />,
+    },
+    {
+      path: "/FMU",
+      element: <FMU />,
+    },
+    {
+      path: "/LU",
+      element: <LU />,
+    },
+    {
+      path: "/EU",
+      element: <EU />,
     },
     {
       path: "/",
