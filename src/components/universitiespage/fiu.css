@@ -1,0 +1,109 @@
+fiu {
+    height: 100%;
+    padding-top: 4rem;
+    overflow: hidden;
+  }
+  
+  .searchbar {
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    font-family: "Nunito", sans-serif;
+    padding-left: 18rem;
+  }
+  
+  .university-info {
+    width: 50%;
+    border-radius: 10%;
+    border-color: rgb(7, 7, 83);
+  }
+  
+  .comments{
+    background-color: rgb(102, 102, 126);
+      color: white;
+      padding: 100px;
+      border-radius: 5px;
+      border: none;
+      cursor: pointer;
+  }
+  
+  .image-text-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .university-title {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    background-color: rgba(55, 3, 152, 0.565);
+    color: rgba(255, 255, 255, 0.716);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .university-image {
+    width: 50%;
+    max-width: 400px;
+    height: auto;
+    margin-bottom: 2rem;
+    margin-right: 2rem;
+  }
+  
+  
+  .fiu__container {
+    padding-top: 5%;
+    text-align: center;
+    height: 100%;
+    position: relative;
+  }
+  
+  
+  .fiu__socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    position: absolute;
+    left: 5rem;
+    bottom: 1rem;
+  }
+  
+  .fiu__socials::after {
+    content: '';
+    width: 1px;
+    height: 2rem;
+    background: var(--color-primary);
+  }
+  
+  .scroll__down {
+    position: absolute;
+    right: 5rem;
+    bottom: 5rem;
+    transform: rotate(90deg);
+    font-weight: 300;
+    font-size: 0.9rem;
+  }
+  
+  @media screen and (max-width: 1024px){
+    fiu {
+      padding-top: 3rem;
+    }
+  
+    fiu {
+      margin-top: 3rem;
+    }
+  }
+  
+  
+  
+  @media screen and (max-width: 600px){
+  
+    .universities__socials,
+    .scroll__down {
+      display: none;
+    }
+  }
+  
