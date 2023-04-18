@@ -11,7 +11,8 @@ import {
 } from "firebase/auth";
 import { AuthContext } from "../../context/AuthContext";
 
-const Register = () => {
+const teacherReg = () => {
+ 
   const { dispatch } = useContext(AuthContext);
   const [inputValues, setInputValues] = useState({
     username: "",
@@ -58,6 +59,13 @@ const Register = () => {
       pattern: inputValues.password,
       required: true,
     },
+    {
+      id: 5,
+      name: "University",
+      type: "text",
+      placeholder: "Your University",
+      required: true,
+    },
   ];
 
   const handleChange = (e) => {
@@ -102,7 +110,7 @@ const Register = () => {
   return (
     <div className="register">
       <form>
-        <h2>Register as Teacher</h2>
+        <h2>Register as TEACHER</h2>
         {inputs.map((input) => (
           <FormInput
             key={input.id}
@@ -150,4 +158,4 @@ const Register = () => {
   );
 };
 
-export default Register;
+export default teacherReg;

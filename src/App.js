@@ -15,7 +15,10 @@ import Student from './components/student/Student';
 import Universities from './components/universities/Universities';
 import Profile from "./pages/profile/Profile";
 import Login from "./pages/login/Login";
+import TeacherLogin from "./pages/login/teacherLogin";
 import Register from "./pages/register/Register";
+import TeacherReg from "./pages/register/teacherReg"; 
+
 
 
 function App() {
@@ -38,6 +41,11 @@ function App() {
     },
 
     {
+      path: "/teacherLogin",
+      element: <TeacherLogin />,
+    },
+
+    {
       path: "/LoginHome",
       element: <LoginHome />,
     },
@@ -55,6 +63,10 @@ function App() {
     {
       path: "/register",
       element: <Register />,
+    },
+    {
+      path: "/teacherReg",
+      element: <TeacherReg />,
     },
     {
       path: "/",

@@ -8,9 +8,10 @@ import {
 } from "@mui/icons-material";
 import { auth, provider } from "../../firebase";
 import { signInWithEmailAndPassword, signInWithPopup } from "firebase/auth";
-import { AuthContext } from "./../../context/AuthContext";
+import { AuthContext } from "../../context/AuthContext";
+import TeacherReg from '../../pages/register/teacherReg'; 
 
-const Login = () => {
+const teacherLogin = () => {
   const [inputs, setInputs] = useState({
     email: "",
     password: "",
@@ -66,7 +67,7 @@ const Login = () => {
   return (
     <div className="login">
       <form>
-        <h2>Login</h2>
+        <h2>Teacher Login</h2>
         <div className="formInput">
           <input
             type="email"
@@ -97,7 +98,7 @@ const Login = () => {
         <div className="formLink">
           <span>Don't have an account? </span>
           <Link
-            to="/register"
+            to="/teacherReg"
             className="formSignup"
             style={{ textDecoration: "none" }}
           >
@@ -129,4 +130,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default teacherLogin;
