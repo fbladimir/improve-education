@@ -66,7 +66,7 @@ const Login = () => {
   return (
     <div className="login">
       <form>
-        <h2>Student Login</h2>
+        <h2>Login</h2>
         <div className="formInput">
           <input
             type="email"

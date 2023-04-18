@@ -102,7 +102,7 @@ const Register = () => {
   return (
     <div className="register">
       <form>
-        <h2>Register as Student</h2>
+        <h2>Register as Teacher</h2>
         {inputs.map((input) => (
           <FormInput
             key={input.id}

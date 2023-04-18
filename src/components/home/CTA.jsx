@@ -1,5 +1,6 @@
 import React from 'react'
 import Login from '../../pages/login/Login'; 
+import teacherLogin from '../../pages/teacherLogin/teacherLogin'; 
 
 
 const CTA = () => {
