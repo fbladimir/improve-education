@@ -51,6 +51,7 @@ universities {
     font-size: 0.9rem;
   }
   
+  
   @media screen and (max-width: 1024px){
     universities {
       padding-top: 3rem;
