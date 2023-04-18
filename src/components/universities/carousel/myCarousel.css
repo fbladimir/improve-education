@@ -3,11 +3,15 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  padding-bottom: 12rem;
+  z-index: 9;
 }
 
 h1 {
   margin: 1rem auto 4rem;
+  z-index: 8;
 }
+
 
 .product--image {
   width: 100%;
@@ -31,7 +35,7 @@ h1 {
 .card button {
   border: none;
   outline: 0;
-  padding: 12px;
+  padding: 20px;
   color: white;
   background-color: #0000005f;
   text-align: center;
