@@ -11,8 +11,7 @@ const Home = () => {
     <header id="header">
       <div className="container header__container">
       
-        <h3> Welcome to,
-          TEST </h3> 
+        <h3> Welcome to, </h3> 
         
         <h1> Improving Education </h1> 
         <h4 className="text-light"> Who is visting today? </h4>
