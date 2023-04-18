@@ -4,23 +4,30 @@
   }
   
   .search input {
+    position: absolute;
+    top: 80px;
     background-color: white;
     border: 0;
-    border-radius: 2px;
+    border-radius: 0px;
     border-top-right-radius: 0px;
     border-bottom-right-radius: 0px;
     font-size: 18px;
     padding: 15px;
     height: 60px;
     width: 300px;
+    z-index: 10;
   }
   
   .searchIcon {
+    position: absolute;
+    top: 88px;
+    right: 310px;
     height: 60px;
     width: 50px;
     background-color: rgb(48, 30, 140);
     display: grid;
     place-items: center;
+    z-index: 11;
   }
 
   .searchIcon:hover {
