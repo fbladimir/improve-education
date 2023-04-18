@@ -6,7 +6,7 @@ import {
 } from "react-router-dom";
 import { AuthContext } from "./context/AuthContext";
 import Home from './components/home/Home';
-import LoginHome from './components/LoginHome/LoginHome'; 
+import LoginHome from './components/LoginHome/LoginHome';
 import Topbar from './components/topbar/topbar';
 //import Intro from './components/intro/Intro'
 //import CTA from './components/header/CTA'
@@ -23,7 +23,7 @@ function App() {
   const { currentUser } = useContext(AuthContext);
 
   const AuthRoute = ({ children }) => {
-    return currentUser ? children : <Navigate to="/home" />;  
+    return currentUser ? children : <Navigate to="/home" />;
   };
 
   const router = createBrowserRouter([
@@ -53,6 +53,16 @@ function App() {
     },
 
     {
+      path: "/teacher",
+      element: <Teacher />,
+    },
+
+    {
+      path: "/student",
+      element: <Student />,
+    },
+
+    {
       path: "/register",
       element: <Register />,
     },
@@ -63,7 +73,7 @@ function App() {
 
           <LoginHome />
 
-          <Topbar /> 
+          <Topbar />
 
 
         </AuthRoute>
@@ -83,16 +93,16 @@ export default App;
 // const App = () => {
 //   return (
 //     <>
-//       <Routes> 
-//         <Route path='/' element={< Header /> } />  
-//         <Route path='/student' element={< Student /> } /> 
-//         <Route path='/teacher' element={< Teacher /> } /> 
-//         <Route path='/universities' element={< Universities /> } /> 
-        
+//       <Routes>
+//         <Route path='/' element={< Header /> } />
+//         <Route path='/student' element={< Student /> } />
+//         <Route path='/teacher' element={< Teacher /> } />
+//         <Route path='/universities' element={< Universities /> } />
+
 
 //       </Routes>
 
-//       <Topbar /> 
+//       <Topbar />
 
 //     </>
 //   )
