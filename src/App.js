@@ -29,6 +29,7 @@ import FNU from "./components/universitiespage/FNU";
 import LU from "./components/universitiespage/LU";
 import EU from "./components/universitiespage/EU";
 import Universitiespage from "./components/universitiespage/Universitiespage";
+import Comments from "./components/comments/Comments"; 
 
 
 
@@ -55,6 +56,11 @@ function App() {
     {
       path: "/teacherLogin",
       element: <TeacherLogin />,
+    },
+
+    {
+      path: "/Comments",
+      element: <Comments />,
     },
 
     {
