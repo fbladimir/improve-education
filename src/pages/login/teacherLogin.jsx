@@ -91,8 +91,9 @@ const teacherLogin = () => {
             {toggleEye ? <Visibility /> : <VisibilityOff />}
           </div>
         </div>
-        <button type="submit" onClick={handleLogin}>
-          Login
+        <button className="button1" type="submit" onClick={handleLogin}>
+          <a href="" > Login </a>
+
         </button>
 
         <div className="formLink">
@@ -109,10 +110,6 @@ const teacherLogin = () => {
 
         <div className="line"></div>
         <div className="media-options">
-          <Link to="#" className="facebook" style={{ textDecoration: "none" }}>
-            
-            <span>Login with Apple</span>
-          </Link>
         </div>
         <div className="media-options">
           <Link
@@ -125,7 +122,13 @@ const teacherLogin = () => {
             <span>Login with Google</span>
           </Link>
         </div>
-      </form>
+
+        <a href="/home" className="btn"> Take me back </a>
+
+        
+      </form> 
+
+
     </div>
   );
 };

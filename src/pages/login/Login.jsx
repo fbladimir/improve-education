@@ -3,12 +3,16 @@ import "./login.css";
 import { Link, useNavigate } from "react-router-dom";
 import {
   FacebookRounded,
+  ToggleOff,
   Visibility,
   VisibilityOff,
 } from "@mui/icons-material";
 import { auth, provider } from "../../firebase";
 import { signInWithEmailAndPassword, signInWithPopup } from "firebase/auth";
 import { AuthContext } from "./../../context/AuthContext";
+import Home from '../../components/home/Home'; 
+import Google from '../../assets/google.png'; 
+
 
 const Login = () => {
   const [inputs, setInputs] = useState({
@@ -77,6 +81,8 @@ const Login = () => {
             required
           />
         </div>
+
+        
         <div className="formInput">
           <input
             type={inputType}
@@ -86,15 +92,25 @@ const Login = () => {
             onChange={handleChange}
             required
           />
+
+          
           <div className="eyeIcon" onClick={handleToggle}>
             {toggleEye ? <Visibility /> : <VisibilityOff />}
           </div>
+
+          
         </div>
-        <button type="submit" onClick={handleLogin}>
-          Login
+      
+        <button class="button1" type="submit" onClick={handleLogin}>
+         <a href="">  Login </a> 
+         
         </button>
 
+      
+
         <div className="formLink">
+
+          
           <span>Don't have an account? </span>
           <Link
             to="/register"
@@ -108,22 +124,26 @@ const Login = () => {
 
         <div className="line"></div>
         <div className="media-options">
-          <Link to="#" className="facebook" style={{ textDecoration: "none" }}>
-            
-            <span>Login with Apple</span>
-          </Link>
         </div>
         <div className="media-options">
+
+          
           <Link
             to="#"
             className="facebook google"
             style={{ textDecoration: "none" }}
             onClick={signInWithGoogle}
           >
-            <img src="/assets/google.png" alt="" className="googleImg" />
-            <span>Login with Google</span>
+
+         <span>Login with Google</span>
+
           </Link>
+
         </div>
+
+        
+        <a href="/home" className="btn2"> Take me back </a>
+        
       </form>
     </div>
   );
