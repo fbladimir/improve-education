@@ -3,7 +3,7 @@ import './fiu.css'
 import Searchbar from '../universities/searchbar/Searchbar'
 import Data from '../universities/Data.json'
 import Topbar from '../topbar/topbar'
-import Comments from '../../components/comments/Comments'; 
+
 
 
 const FIU = () => {
@@ -31,7 +31,6 @@ const FIU = () => {
 
     <h2 className="comments">From our Community</h2>
 
-    <Comments /> 
 
     
 
