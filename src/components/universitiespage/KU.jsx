@@ -3,6 +3,7 @@ import './ku.css'
 import Searchbar from '../universities/searchbar/Searchbar'
 import Data from '../universities/Data.json'
 import Topbar from '../topbar/topbar'
+import Posts from '../../components/posts/Posts'; 
 
 
 const KU = () => {
@@ -30,6 +31,7 @@ const KU = () => {
 
     <h2 className="comments">From our Community</h2>
 
+    <Posts /> 
     
 
   </div>
