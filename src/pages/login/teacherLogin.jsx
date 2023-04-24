@@ -69,7 +69,7 @@ const teacherLogin = () => {
     <div className="login">
       <form class="teacherForm">
         <h2>Teacher Login</h2>
-        <div className="formInput">
+        <div className="theinput">
           <input
             type="email"
             name="email"
@@ -79,7 +79,7 @@ const teacherLogin = () => {
             required
           />
         </div>
-        <div className="formInput">
+        <div className="theinput">
           <input
             type={inputType}
             name="password"
@@ -88,7 +88,7 @@ const teacherLogin = () => {
             onChange={handleChange}
             required
           />
-          <div className="formInput">
+          <div className="theinput">
           <input
             type="text"
             name="university"

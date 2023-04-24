@@ -23,15 +23,15 @@ body{
     height: 200px;
     width: 200px;
     position: absolute;
-    border-radius: 50%;
+    border-radius: 100%;
 }
 .shape:first-child{
     background: linear-gradient(
         #1845ad,
         #23a2f6
     );
-    left: -80px;
-    top: -80px;
+    left: 80px;
+    top: 80px;
 }
 .shape:last-child{
     background: linear-gradient(
@@ -39,15 +39,43 @@ body{
         #ff512f,
         #f09819
     );
-    right: -30px;
-    bottom: -80px;
+    right: -300px;
+    bottom: -800px;
 }
-form{
-    height: 520px;
-    width: 400px;
+/* form{
+    height: 100px;
+    width: 450px;
     background-color: rgba(255,255,255,0.13);
     position: absolute;
     transform: translate(-50%,-50%);
+    top: 20%;
+    left: 50%;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    padding: 250px 15px;
+} */
+
+/* .formTest { 
+    background-color: rgba(30, 28, 30, 0.321);
+    max-width: 450px;
+    transform: translate(85%, -5%);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    padding: 50px 15px;
+    position: absolute; 
+    backdrop-filter: blur(10px);
+    width: 100%; 
+    border-radius: 60px;
+    height: 135px; 
+} */
+
+.formTest { 
+    height: 20px;
+    width: 400px;
+    background-color: rgba(255,255,255,0.13);
+    position: relative; 
+    transform: translate(-50%, 0%);
     top: 50%;
     left: 50%;
     border-radius: 10px;
@@ -58,11 +86,11 @@ form{
 }
 
 .teacherForm{
-    height: 590px;
+    height: 600px;
     width: 400px;
     background-color: rgba(255,255,255,0.13);
-    position: absolute;
-    transform: translate(-50%,-50%);
+    position: relative; 
+    transform: translate(-50%, 0%);
     top: 50%;
     left: 50%;
     border-radius: 10px;
@@ -71,9 +99,20 @@ form{
     box-shadow: 0 0 40px rgba(8,7,16,0.6);
     padding: 50px 35px;
 }
+.theinput { 
+    display: block;
+    width: 120px; 
+    font-size: 14px;
+    font-weight: 300;
+    color: white; 
+}
+::placeholder { 
+    color: white; 
+}
+
 form *{
     font-family: 'Poppins',sans-serif;
-    color: #ffffff;
+   
     letter-spacing: 0.5px;
     outline: none;
     border: none;
@@ -87,32 +126,32 @@ form h3{
 
 label{
     display: block;
-    margin-top: 30px;
+    margin-top: 90px;
     font-size: 16px;
     font-weight: 500;
 }
 input{
     display: block;
     height: 50px;
-    width: 100%;
-    background-color: rgba(255,255,255,0.07);
-    border-radius: 3px;
+    width: 250%;
+    border-radius: 12px;
     padding: 0 10px;
     margin-top: 8px;
     font-size: 14px;
     font-weight: 300;
 }
 ::placeholder{
-    color: #e5e5e5;
+    color: black;
 }
 button{
-    margin-top: 10px;
-    margin-bottom: 40px; 
-    margin-left: 100px; 
-    width: 35%;
-    font-size: 19px;
-    color: white; 
-    font-weight: 800;
+    margin-top: 50px;
+    width: 100%;
+    background-color: #ffffff;
+    color: #080710;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
     cursor: pointer;
 }
 

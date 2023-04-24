@@ -1,5 +1,5 @@
 import React, { useContext, useState } from "react";
-import "./registert.css";
+import "./register.css";
 import FormInput from "../../components/formInput/FormInput";
 import { Link, useNavigate } from "react-router-dom";
 import { FacebookRounded } from "@mui/icons-material";

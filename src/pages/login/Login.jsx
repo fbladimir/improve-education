@@ -69,9 +69,9 @@ const Login = () => {
   // console.log(inputs);
   return (
     <div className="login">
-      <form>
+      <form class="teacherForm">
         <h2>Student Login</h2>
-        <div className="formInput">
+        <div className="theinput">
           <input
             type="email"
             name="email"
@@ -83,7 +83,7 @@ const Login = () => {
         </div>
 
         
-        <div className="formInput">
+        <div className="theinput">
           <input
             type={inputType}
             name="password"

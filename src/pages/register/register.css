@@ -1,8 +1,8 @@
 .register{
-    display: flex;
+    display: absolute;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 6vh;
     width: 100%;
 
 } 
@@ -11,9 +11,20 @@
     background-color: rgba(30, 28, 30, 0.321);
     max-width: 450px;
     padding: 40px;
+    transform: translate(-50%, 0%);
     width: 100%;
     border-radius: 60px;
-    height: 835px; 
+    height: 815px; 
+}
+
+.teacherTest { 
+    background-color: rgba(30, 28, 30, 0.321);
+    max-width: 450px;
+    padding: 40px;
+    transform: translate(-50%, 0%);
+    width: 100%;
+    border-radius: 60px;
+    height: 815px; 
 }
 
 h2 {
