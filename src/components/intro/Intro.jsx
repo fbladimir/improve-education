@@ -1,6 +1,7 @@
 import React from 'react'
 import ME from '../../assets/temp.png';
 import './intro.css'
+import Login from '../../pages/login/Login';
 
 
 const Intro = () => {
@@ -35,7 +36,7 @@ const Intro = () => {
         </div>
         <p> The college application process can be challenging but it is not impossible! We want to help you pick the right institution by
           listening to what their students have to say.</p>
-        <a href="#" className="btn btn-primary">Take A Step Into Success</a>
+        <a href="/login" className="btn btn-primary">Take A Step Into Success</a>
       </div>
     </div>
   </section>
