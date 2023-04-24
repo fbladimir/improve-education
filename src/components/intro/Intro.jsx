@@ -8,7 +8,7 @@ const Intro = () => {
   return (
     <section id="intro">
     <h5>It Starts Here</h5>
-    <h2>Take a step into your future.</h2>
+    <h2> Step to your future</h2>
     <div className="container about__container">
       <div className="about__me">
         <div className="about__me-image">
