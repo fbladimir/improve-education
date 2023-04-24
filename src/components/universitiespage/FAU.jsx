@@ -3,9 +3,15 @@ import './fau.css'
 import Searchbar from '../universities/searchbar/Searchbar'
 import Data from '../universities/Data.json'
 import Topbar from '../topbar/topbar'
+import Footer from "../../ComCopNew/Footer";
+import Comments from "../../ComCopNew/Comments";
+import data from "../../data.json";
 
 
 const FAU = () => {
+
+  const currentUser = data.currentUser;
+
   return (
 
   <fau id="fau">
@@ -29,6 +35,9 @@ const FAU = () => {
     <Topbar/>
 
     <h2 className="comments">From our Community</h2>
+
+    <Comments currentUser={currentUser} />
+    <Footer />
 
     
 
