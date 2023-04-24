@@ -4,13 +4,13 @@ import { Link } from 'react-router-dom';
 
 export default function Product(props) {
   return (
-    <div className='card'>
+    <div className='mycard'>
               <img
               className='product--image'
               src={props.url}
               alt='product image'
               />
-              <h2>{props.name}</h2>
+              <h2 className='product-name'>{props.name}</h2>
               <p className="location"> {props.location} </p>
               <p> {props.description}</p>
               <p>
@@ -21,3 +21,4 @@ export default function Product(props) {
     </div>
   );
 }
+
