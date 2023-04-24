@@ -3,7 +3,9 @@ import './fiu.css'
 import Searchbar from '../universities/searchbar/Searchbar'
 import Data from '../universities/Data.json'
 import Topbar from '../topbar/topbar'
-
+import Comments from '../../CommentApp'; 
+import Footer from '../../componentsCom/Footer';
+import CommentExampleComment from '../comments/CommentExampleComment'
 
 
 const FIU = () => {
@@ -11,7 +13,9 @@ const FIU = () => {
 
   return (
 
+    
   <fiu id="fiu">
+
   <div className="container fiu__container">
 
     <div className="searchbar">
@@ -32,6 +36,10 @@ const FIU = () => {
     <Topbar/>
 
     <h2 className="comments">From our Community</h2>
+    
+    <Comments /> 
+
+    
 
   </div>
 
@@ -40,7 +48,9 @@ const FIU = () => {
 
 
 
+
   )
 }
+
 
 export default FIU

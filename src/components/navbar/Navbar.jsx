@@ -1,8 +1,13 @@
 import "./navbar.css";
 import React, { useContext } from "react";
+<<<<<<< HEAD
 import DefaultProfile from '../../assets/DefaultProfile.jpg';
 import { AuthContext } from "./../../context/AuthContext";
 import "./searchbar2/searchbar2.css";
+=======
+import DefaultProfile from '../../assets/DefaultProfile.jpg'; 
+import { AuthContext } from "../../context/AuthContext";
+>>>>>>> 36e758c (comment updates)
 
 const Navbar = () => {
   const { currentUser } = useContext(AuthContext);

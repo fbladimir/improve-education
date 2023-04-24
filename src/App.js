@@ -29,6 +29,10 @@ import FNU from "./components/universitiespage/FNU";
 import LU from "./components/universitiespage/LU";
 import EU from "./components/universitiespage/EU";
 import Universitiespage from "./components/universitiespage/Universitiespage";
+import Comments from "./CommentApp"; 
+import CommentExampleComment from '../src/components/comments/CommentExampleComment';
+
+
 
 
 function App() {
@@ -48,6 +52,10 @@ function App() {
     {
       path: "/login",
       element: <Login />,
+    },
+    {
+      path: "/CommentApp",
+      element: <CommentExampleComment />,
     },
 
     {
@@ -71,6 +79,7 @@ function App() {
     },
 
     {
+<<<<<<< HEAD
       path: "/teacher",
       element: <Teacher />,
     },
@@ -78,6 +87,10 @@ function App() {
     {
       path: "/student",
       element: <Student />,
+=======
+      path: "/CommentsApp",
+      element: <Comments />,
+>>>>>>> 36e758c (comment updates)
     },
 
     {

@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import "./menuLink.css";
-import { AuthContext } from "./../../context/AuthContext";
+import { AuthContext } from "../../context/AuthContext";
 
 const MenuLink = ({ icon, text }) => {
   const { currentUser } = useContext(AuthContext);
