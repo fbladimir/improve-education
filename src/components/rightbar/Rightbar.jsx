@@ -10,9 +10,11 @@ const Rightbar = () => {
         <Widget type="user" />
         <Widget type="popular" />
         <Widget type="editor" />
-        <button className="rightButton">
-          See More
+    
+        <button href="/home" className="rightButton">
+          Top University: Florida International University
           <ArrowDropDown />
+     
         </button>
       </div>
     </div>

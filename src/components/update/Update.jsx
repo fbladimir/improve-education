@@ -79,36 +79,13 @@ const Update = () => {
   return (
     <div className="update">
       <div className="updateWrapper">
-        <h3 className="updateTitle">Edit Your Account</h3>
+        <h3 className="updateTitle">Your Account Details</h3>
         <span>Email Address: {currentUser.email}</span>
 
-        <div className="updateContainer">
+        <div className="myUpdateContainer">
             <form onSubmit={handleUpdate}>
-              <div className="formImg">
-                <span>Profile Photo</span>
-                <div className="profilePic">
-                  <img
-                    src={
-                      img
-                        ? URL.createObjectURL(img)
-                        : "/assets/DefaultProfile.jpg"
-                    }
-                    alt=""
-                    className="profileImg"
-                  />
-                  <label htmlFor="file">
-                    <span className="change">Change</span>
-                  </label>
-                  <input
-                    type="file"
-                    id="file"
-                    style={{ display: "none" }}
-                    onChange={(e) => setImg(e.target.files[0])}
-                  />
-                </div>
-              </div>
-              <div className="formItem">
-                <label>Username</label>
+              <div className="myForm">
+                <label class="myLabel">Username</label>
                 <input
                   className="formInput"
                   type="text"
@@ -117,8 +94,8 @@ const Update = () => {
                   onChange={handleChange}
                 />
               </div>
-              <div className="formItem">
-                <label>Email</label>
+              <div className="myForm">
+                <label class="myLabel">Email</label>
                 <input
                   className="formInput"
                   type="email"
@@ -127,8 +104,8 @@ const Update = () => {
                   onChange={handleChange}
                 />
               </div>
-              <div className="formItem">
-                <label>Password</label>
+              <div className="myForm">
+                <label class="myLabel">Password</label>
                 <input
                   className="formInput"
                   name="oldPassword"

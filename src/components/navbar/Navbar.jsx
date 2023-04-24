@@ -15,13 +15,6 @@ const Navbar = () => {
           <span className="logo">Account Dashboard</span>
         </div>
         <div className="navbarCenter">
-          <div className="search">
-            <input
-              className="searchInput"
-              type="text"
-              placeholder="search for something..."
-            />
-          </div>
         </div>
         <div className="navbarRight">
           <img

@@ -2,6 +2,28 @@
     flex: 6;
 }
 
+.myForm { 
+  display: absolute;
+  width: 350px; 
+  flex-direction: column;
+  margin-bottom: 5x;
+}
+
+.myUpdateContainer { 
+  display: flex;
+  margin-top: 20px;
+  border-top: 1px solid lightgray;
+  padding-top: -300px;
+  background-color: transparent;
+}
+
+.myLabel { 
+  position: center; 
+  width: 100px;
+  padding: -80px; 
+   
+}
+
     .updateWrapper {
       padding: 20px;
       display: flex;
