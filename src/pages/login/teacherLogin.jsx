@@ -15,6 +15,7 @@ const teacherLogin = () => {
   const [inputs, setInputs] = useState({
     email: "",
     password: "",
+    university: "", 
   });
   const [toggleEye, setToggleEye] = useState(false);
   const [inputType, setInputType] = useState("password");
@@ -66,7 +67,7 @@ const teacherLogin = () => {
   // console.log(inputs);
   return (
     <div className="login">
-      <form>
+      <form class="teacherForm">
         <h2>Teacher Login</h2>
         <div className="formInput">
           <input
@@ -87,6 +88,14 @@ const teacherLogin = () => {
             onChange={handleChange}
             required
           />
+          <div className="formInput">
+          <input
+            type="text"
+            name="university"
+            id="university"
+            placeholder="University"
+          />
+        </div>
           <div className="eyeIcon" onClick={handleToggle}>
             {toggleEye ? <Visibility /> : <VisibilityOff />}
           </div>
