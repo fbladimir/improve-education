@@ -27,15 +27,15 @@ function Searchbar({ placeholder, data }) {
   };
 
   return (
-    <div className="search">
-      <div className="searchInputs">
+    <div className="mysearch">
+      <div className="mysearchInputs">
         <input
           type="text"
           placeholder={placeholder}
           value={wordEntered}
           onChange={handleFilter}
         />
-        <div className="searchIcon">
+        <div className="mysearchIcon">
           {filteredData.length === 0 ? (
             <AiOutlineSearch />
           ) : (
@@ -44,10 +44,10 @@ function Searchbar({ placeholder, data }) {
         </div>
       </div>
       {filteredData.length != 0 && (
-        <div className="dataResult">
+        <div className="mydataResult">
           {filteredData.slice(0, 15).map((value, key) => {
             return (
-              <a className="dataItem" href={value.link} target="_blank">
+              <a className="mydataItem" href={value.link} target="_blank">
                 <p>{value.title} </p>
               </a>
             );
