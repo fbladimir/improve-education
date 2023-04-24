@@ -16,17 +16,6 @@ const LoginHome = () => {
       
       <h3> Welcome, <span className="empty">{currentUser.displayName}</span> </h3> 
 
-      <center> 
-      <img
-            className="profileImg"
-            src={
-              currentUser.photoURL
-                ? currentUser.photoURL
-                : {DefaultProfile}
-            }
-            alt=""
-          /> </center> 
-
         <h1> Improving Education </h1> 
         <h4 className="text-light"> Who is visting today? </h4>
          

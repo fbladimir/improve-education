@@ -10,6 +10,7 @@ import {
   signInWithPopup,
 } from "firebase/auth";
 import { AuthContext } from "../../context/AuthContext";
+import Google from "../../assets/google.png"; 
 
 const Register = () => {
   const { dispatch } = useContext(AuthContext);
@@ -100,8 +101,9 @@ const Register = () => {
   };
   // console.log(inputValues);
   return (
+
     <div className="register">
-      <form>
+      <form class="formTest">
         <h2>Register as Student</h2>
         {inputs.map((input) => (
           <FormInput
@@ -111,7 +113,7 @@ const Register = () => {
             onChange={handleChange}
           />
         ))}
-        <button type="submit" onClick={handleRegister}>
+        <button class="button1" type="submit" onClick={handleRegister}>
           Register
         </button>
 
@@ -128,24 +130,27 @@ const Register = () => {
         </div>
 
         <div className="line"></div>
-        <div className="media-options">
-          <Link to="#" className="facebook" style={{ textDecoration: "none" }}>
-          
-            <span>Login with Apple</span>
-          </Link>
+        <div className="">
         </div>
-        <div className="media-options">
+        <div className="">
           <Link
             to="#"
-            className="facebook google"
+            className=""
             style={{ textDecoration: "none" }}
             onClick={signInWithGoogle}
           >
-            <img src="/assets/google.png" alt="" className="googleImg" />
             <span>Login with Google</span>
           </Link>
+          
+          
         </div>
+
+      
+
+        <a href="/home" className="btn2"> Take me back </a>
+
       </form>
+
     </div>
   );
 };

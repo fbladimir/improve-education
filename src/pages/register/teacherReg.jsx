@@ -1,7 +1,7 @@
 import React, { useContext, useState } from "react";
+import "./registert.css";
 import FormInput from "../../components/formInput/FormInput";
 import { Link, useNavigate } from "react-router-dom";
-import "./register.css";
 import { FacebookRounded } from "@mui/icons-material";
 import { auth, provider } from "../../firebase";
 import {
@@ -86,7 +86,7 @@ const teacherReg = () => {
         updateProfile(user, {
           displayName: inputValues.username,
         });
-        navigate("/login");
+        navigate("/teacherLogin");
       });
     } catch (error) {}
   };
@@ -109,7 +109,7 @@ const teacherReg = () => {
   // console.log(inputValues);
   return (
     <div className="register">
-      <form>
+      <form class="formTest">
         <h2>Register as TEACHER</h2>
         {inputs.map((input) => (
           <FormInput
@@ -119,14 +119,14 @@ const teacherReg = () => {
             onChange={handleChange}
           />
         ))}
-        <button type="submit" onClick={handleRegister}>
+        <button class="button1" type="submit" onClick={handleRegister}>
           Register
         </button>
 
         <div className="formLink">
           <span>Already have an account? </span>
           <Link
-            to="/login"
+            to="/teacherLogin"
             className="formSignup"
             style={{ textDecoration: "none" }}
           >
@@ -137,12 +137,6 @@ const teacherReg = () => {
 
         <div className="line"></div>
         <div className="media-options">
-          <Link to="#" className="facebook" style={{ textDecoration: "none" }}>
-          
-            <span>Login with Apple</span>
-          </Link>
-        </div>
-        <div className="media-options">
           <Link
             to="#"
             className="facebook google"
@@ -152,7 +146,13 @@ const teacherReg = () => {
             <img src="/assets/google.png" alt="" className="googleImg" />
             <span>Login with Google</span>
           </Link>
+
+          
         </div>
+
+        
+        <a href="/home" className="btn2"> Take me back </a>
+
       </form>
     </div>
   );
