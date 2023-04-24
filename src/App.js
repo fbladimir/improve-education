@@ -53,6 +53,7 @@ function App() {
       path: "/login",
       element: <Login />,
     },
+    
     {
       path: "/CommentApp",
       element: <CommentExampleComment />,
@@ -79,7 +80,7 @@ function App() {
     },
 
     {
-<<<<<<< HEAD
+
       path: "/teacher",
       element: <Teacher />,
     },
@@ -87,16 +88,13 @@ function App() {
     {
       path: "/student",
       element: <Student />,
-=======
-      path: "/CommentsApp",
-      element: <Comments />,
->>>>>>> 36e758c (comment updates)
-    },
-
+    }, 
+    
     {
       path: "/register",
       element: <Register />,
     },
+
     {
       path: "/teacherReg",
       element: <TeacherReg />,
