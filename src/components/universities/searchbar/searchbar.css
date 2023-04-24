@@ -1,9 +1,9 @@
-.searchInputs {
+.mysearchInputs {
     margin-top: 90px;
     display: flex;
   }
   
-  .search input {
+  .mysearch input {
     position: absolute;
     top: 80px;
     background-color: white;
@@ -18,7 +18,7 @@
     z-index: 10;
   }
   
-  .searchIcon {
+  .mysearchIcon {
     position: absolute;
     top: 88px;
     right: 310px;
@@ -30,7 +30,7 @@
     z-index: 11;
   }
 
-  .searchIcon:hover {
+  .mysearchIcon:hover {
     background: transparent;
     border-color: var(--color-primary-variant);
     cursor: default;
@@ -39,11 +39,11 @@
   input:focus {
     outline: none;
   }
-  .searchIcon svg {
+  .mysearchIcon svg {
     font-size: 35px;
   }
   
-  .dataResult {
+  .mydataResult {
     margin-top: 5px;
     width: 300px;
     height: 200px;
@@ -53,11 +53,11 @@
     overflow-y: auto;
   }
   
-  .dataResult::-webkit-scrollbar {
+  .mydataResult::-webkit-scrollbar {
     display: none;
   }
   
-  .dataResult .dataItem {
+  .mydataResult .mydataItem {
     width: 100%;
     height: 50px;
     display: flex;
@@ -65,7 +65,7 @@
     color: black;
   }
   
-  .dataItem p {
+  .mydataItem p {
     margin-left: 10px;
   }
   a {
