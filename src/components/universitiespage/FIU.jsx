@@ -7,6 +7,8 @@ import Topbar from '../topbar/topbar'
 
 
 const FIU = () => {
+
+
   return (
 
   <fiu id="fiu">
@@ -31,12 +33,12 @@ const FIU = () => {
 
     <h2 className="comments">From our Community</h2>
 
-
-    
-
   </div>
 
+
 </fiu>
+
+
 
   )
 }
