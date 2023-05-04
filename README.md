@@ -1,6 +1,5 @@
 # Improving Education Application
 
-### Currently Under Development
 
 Submitted as a project for Advanced Software Engineer class. Using this application, students are able to create an open learning environment that will make education more accessible and improve the quality of education. 
 
@@ -12,6 +11,31 @@ Submitted as a project for Advanced Software Engineer class. Using this applicat
 <img width="800" alt="main" src="https://user-images.githubusercontent.com/67939160/213976108-0e8d7cbe-6020-45aa-b0f3-cda952a27aba.png">
 
 <img width="800" alt="universityPage" src="https://user-images.githubusercontent.com/67939160/224901373-86d892f2-530b-4fbb-8a44-053f6b9ec3e6.png">
+
+<img width="800" alt="studentLogin" src="https://user-images.githubusercontent.com/67939160/236262804-0ee54523-6556-45d6-b21f-a3da894d0200.png">
+
+<img width="800" alt="studentRegister" src="https://user-images.githubusercontent.com/67939160/236262868-e4d4800f-23e9-4852-a524-60658d7b9c8f.png">
+
+<img width="800" alt="teacherLogin" src="https://user-images.githubusercontent.com/67939160/236262894-42e379d7-c0e7-42a9-bc0e-9a5fb5175a9c.png">
+
+<img width="800" alt="teacherRegister" src="https://user-images.githubusercontent.com/67939160/236262912-383e8dd5-bb1b-44f1-b933-7342dd25a5a1.png">
+
+<img width="800" alt="universityPageDetailed" src="https://user-images.githubusercontent.com/67939160/236262953-bdadc720-3ece-4d9f-9905-90e902113a4a.png">
+
+<img width="800" alt="universityPageComments" src="https://user-images.githubusercontent.com/67939160/236262974-8c3b70bd-68d0-40d9-8d7e-c0a81d537816.png">
+
+<img width="800" alt="universityPagecomment" src="https://user-images.githubusercontent.com/67939160/236263019-49cbc88a-35f1-42b6-b6ac-3b8269122269.png">
+
+## The Team 
+
+Franklin - Program Manager, Full stack developer. 
+
+Valeria - UI Developer 
+
+Anne - UI Support Developer 
+
+Neha - Technical Writer 
+
 
 
 ## How to launch Application
